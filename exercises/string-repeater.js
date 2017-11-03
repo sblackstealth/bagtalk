@@ -1,0 +1,1 @@
+var myelem = document.getElementById("my element")

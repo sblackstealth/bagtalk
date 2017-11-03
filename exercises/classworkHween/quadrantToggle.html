@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <style>
+        body {}
+
+        div {
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            color: white;
+        }
+
+        #topLeft {}
+
+        #topRight {
+            right: 0;
+        }
+
+        #bottomLeft {
+            bottom: 0;
+        }
+
+        #bottomRight {
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topLeft"></div>
+    <div id="topRight"></div>
+    <div id="bottomLeft"></div>
+    <div id="bottomRight"></div>
+    <script>
+        var divs = document.querySelectorAll("div")
+        for (i = 0; i < divs.length; i++) {
+            divs[i].addEventListener("click", function (event) {
+                var currentColor = event.target.style.backgroundColor
+                if (currentColor === "") {
+                    event.target.style.backgroundColor = "black"
+                } else if (currentColor === "black") {
+                    event.target.style.backgroundColor = "white"
+                } else if (currentColor === "white") {
+                    event.target.style.backgroundColor = "black"
+                }
+
+            })
+        }
+    </script>
+</body>
+
+</html>
