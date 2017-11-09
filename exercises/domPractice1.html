@@ -14,8 +14,11 @@
     <script type="text/javascript">
     function changeheader(){
             let newHeader = window.prompt ("enter a string")
+            let howMany = Number(prompt("how many times should this be repeated"))
             let headd =document.getElementById(header1)
-            alert(headd.repeat(3)) 
+            alert(headd.repeat(howMany)) 
+            console.log(headd)
+            console.log(howMany)
 
     }
     changeheader()
