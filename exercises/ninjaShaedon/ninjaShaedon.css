@@ -1,0 +1,47 @@
+head{
+    background-color: black;
+    color: white;
+    font-family: 'Neucha', cursive;
+}
+body{
+    
+    background-color: black;
+    font-family: 'Neucha', cursive;
+}
+h1{
+    color: white;
+}
+ol{
+    color: white;
+}
+li{
+    color: white;
+}
+.heady:hover {
+    background-color: yellow;
+    color: red;
+
+}
+
+.user:hover {
+
+    background-color: yellow;
+    color: red;
+}
+
+.sendIt:hover {
+
+    background-color: yellow;
+    color: red;
+}
+
+.firsty:hover{
+    background-color: yellow;
+    color: red;
+
+}
+li:hover{
+
+    background-color: yellow;
+    color: red;
+}

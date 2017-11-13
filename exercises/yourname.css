@@ -1,15 +1,11 @@
-.container {
+document{
+    text-Family: spectralsc, sans-serrif,
+    background-color: lime;
+    text-decoration-color: magenta;
+};
 
-}
-
-.header {
-
-}
-
-.main {
-
-}
-
-.footer {
+button {
+    background-color: magenta;
+    text-decoration-color: lime;
 
 }
